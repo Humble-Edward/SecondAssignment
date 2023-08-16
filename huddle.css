@@ -157,7 +157,7 @@ h2 {
 .ready button {
   background-color: hsl(322, 100%, 66%);
   border-radius: 50px;
-  padding: 15px 50px;
+  padding: 15px 40px;
   border: none;
   cursor: pointer;
   font-weight: 600;
@@ -177,6 +177,7 @@ footer {
   flex-direction: column;
   position: relative;
   margin-top: 250px;
+
 }
 
 footer .bottom-foot {
@@ -285,7 +286,7 @@ footer p {
 @media screen and (max-width: 576px) {
 
   header {
-    background-image: url(bg-hero-mobile.svg);
+    background-image: url(./img/bg-hero-mobile.svg);
   }
 
   .top {
@@ -426,7 +427,7 @@ footer p {
   .ready {
     padding: 50px;
     width: 70%;
-    top: -8%;
+    /* top: -8%; */
     left: 50%;
     transform: translate(-50%, -8%);
   }
@@ -437,6 +438,7 @@ footer p {
 
   .ready button {
     margin-top: 20px;
+    padding: 10px 10px;
   }
 
   footer {

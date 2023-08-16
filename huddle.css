@@ -15,22 +15,13 @@ header {
   background-repeat: no-repeat;
   background-color: hsl(193, 100%, 96%);
   font-family: Poppins;
-
-
 }
-
-
-
-/* .Container_h {
-  
-} */
 
 .top {
   display: flex;
   justify-content: space-between;
   padding: 50px;
 }
-
 
 .top button {
   padding: 12px 5opx;
@@ -111,8 +102,6 @@ h2 {
   box-shadow: 0 4px 6px 0.5px rgba(0, 0, 0, 0.1);
 }
 
-
-
 .img-2 {
   width: 40%;
   height: auto;
@@ -148,8 +137,6 @@ h2 {
   width: 40%;
   height: auto;
 }
-
-
 
 .ready {
   display: flex;
@@ -249,7 +236,6 @@ footer p {
   justify-content: space-between;
   height: 250px;
   flex-direction: column;
-  /* background: aqua; */
 }
 
 .socials-icon {
@@ -283,17 +269,11 @@ footer p {
   fill: hsl(322, 100%, 66%);
 }
 
-
-
 .socials img:hover {
   border-color: hsl(322, 100%, 66%);
 }
 
-
 .Copyright {
-  /* width: 100%; */
-  /* display: flex; */
-  /* justify-content: flex-end; */
   font-size: 14px;
 }
 
@@ -304,31 +284,16 @@ footer p {
 
 @media screen and (max-width: 576px) {
 
-  /* h2 {
-    font-size: 15px;
-  }
-
-
-  p {
-    font-size: 15px;
-  }
-
-  .top button {
-    font-size: 14px;
-  }
-
-  /* .Container_h {} */
-
   header {
     background-image: url(bg-hero-mobile.svg);
-    padding: 8px 12px;
-    height: 100px;
+  }
+
+  .top {
+    padding: 30px;
   }
 
   .top img {
-    width: 40%;
-    height: 30px;
-    margin: 0;
+    width: 50%;
   }
 
   .top button {
@@ -339,22 +304,17 @@ footer p {
   }
 
   .Container2 {
-    padding: 0px 16px;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: calc(100vh - 80px);
   }
 
   .Container2 .text {
     width: 100%;
-    max-width: 360px;
     text-align: center;
   }
 
-  .Container2 .text p {
-    margin: 20px 0px;
-  }
 
   .Container2 .text button {
     width: 250px;
@@ -368,53 +328,123 @@ footer p {
     margin-top: 80px;
   }
 
+  .text h2 {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  p {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+
+  h2 {
+    margin-bottom: 0px
+  }
+
+  .Get {
+    margin-top: 20px;
+  }
+
   main {
-    height: 550px;
-    width: 90%;
     padding: 8px 16px;
+    display: flex;
     flex-direction: column;
+    gap: 50px;
   }
 
   main .grow {
-    width: 90%;
+    width: 100%;
     text-align: center;
-    margin: 30px 0px;
   }
 
   main .grow p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     margin-top: 20px;
   }
 
-  main .gt img {
-    height: 50%;
-    width: 90%;
-    order: -1;
+  .gt {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
   }
 
-  /* section {
-    height: 200px;
-    bottom: -60px;
+  main .gt img {
     width: 90%;
-    padding: 10px;
+  }
+
+  .Flow {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
+
+  .Flowing {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Flowing p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .img-3 {
+    width: 90%;
+  }
+
+  .Users {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
+
+  .img-4 {
+    width: 90%;
+  }
+
+  .your-users {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .your-users p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .ready {
+    padding: 50px;
+    width: 70%;
+    top: -8%;
+    left: 50%;
+    transform: translate(-50%, -8%);
+  }
+
+  .top-foot .ready h2 {
     text-align: center;
   }
 
-  section button {
-    width: 200px;
-    height: 50px;
-  } */
+  .ready button {
+    margin-top: 20px;
+  }
 
   footer {
-    height: auto;
-    padding: 100px 16px 0px;
-    justify-content: flex-start;
+    padding: 0px;
   }
 
   .bottom-foot svg {
     transform: scale(0.8);
-    margin-left: -25px;
   }
 
   .foot-2 {
@@ -425,15 +455,35 @@ footer p {
     margin-bottom: 50px;
   }
 
-  .socials {
-    margin: 30px 0px 20px;
-    height: 200px;
+  .foot-2 .details div {
+    width: 100%;
+    display: flex;
     align-items: center;
-    justify-content: center;
   }
 
-  /* .Copyright {
-    margin-bottom: 80px;
-    justify-content: center; */
+  .socials {
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .socials-icon {
+    display: flex;
+    gap: 20px;
+  }
+
+  .socials button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .socials button svg {
+    margin: 0px;
+    width: 30px;
+    height: 20px;
+  }
+
 }
-} */
